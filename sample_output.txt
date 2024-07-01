@@ -1,0 +1,13 @@
+gcc ./mcarlo.c -lm
+
+./a.out 100000
+Pi estimation:3.14072
+
+./a.out 1000
+Pi estimation:2.81600
+
+./a.out 100
+Pi estimation:0.00000
+
+./a.out 40000000
+Pi estimation:3.14154
